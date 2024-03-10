@@ -1,0 +1,12 @@
+version: "3.3"
+services:
+
+  zmninja_build:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    image: zmninja_build
+    container_name: zmninja_build
+    volumes:
+      - ./zmninja:/zmninja
+      - ./release:/release
