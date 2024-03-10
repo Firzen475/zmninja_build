@@ -4,4 +4,6 @@
 
 Внести изменения в проект и отразить тут
 
+`docker-compose down && docker-compose build --force-rm && docker-compose up`
+
 Результаты выполнения в папке ./release/
